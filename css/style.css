@@ -1,0 +1,87 @@
+body
+{ 
+	font-size: 12pt;
+	background-image: url("../img/bg-1.jpg");
+    background-color: #3e62a0;
+}
+
+/** BG COLORS ******************************************************/
+.white{background-color: white;}
+.grey{background-color: #bdc3c7;}
+.darkblue{background-color: #2e466f;}
+.blue{background-color: #3e62a0;}
+
+/** BG COLORS ******************************************************/
+.f-darkblue{color: #2e466f;}
+.f-grey{color: #5e6061;}
+
+/** NAVIGATION ******************************************************/
+#nav
+{
+	padding-top: 5.5em;
+	background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 6em;
+    font-size: 11pt;
+
+}
+
+li {
+    display: inline;
+    letter-spacing: .1em;
+}
+
+a.ex1:link
+{
+    padding: 1em;
+    text-decoration: none;
+    color: #5e6061;
+}
+
+a.ex1:hover
+{
+    background-color: #bdc3c7;
+    text-decoration: none;
+    color: white;
+}
+
+/** SUB-NAVIGATION ******************************************************/
+#sub-nav
+{
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+.sub
+{
+	margin-left: 2em;
+	font-size: 9pt;
+}
+
+a.sub:link
+{
+	padding-right: .5em;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0;
+}
+
+a.sub:hover
+{
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+a.focus:link, a.focus:visited
+{color: #2e466f; font-style: italic;}
+
+#content
+{
+	min-height: 10em;
+	height: 100%;
+}
